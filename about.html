@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!-- Load library from the CDN -->
+    <title>About</title>
+  </head>
+  <div class="about-body"></div>
+  <body>
+    <div style="text-align: center;">
+      <a class="title"> About </a>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+
+    <a class="change-theme">
+      <button onclick="myFunction()">Toggle dark mode</button>
+    </a>
+
+    <ul>
+      <li> <a class="bordershadow active" href="index.html"> <i> &#127968; </i> Home </a> </li>
+      <li> <a class="bordershadow active" href="about.html"> <i> &#9773; </i> About </a> </li>
+    </ul>
+
+    <p style="text-align: center;">
+      <a href="https://x.com/Kekeflipnote/status/1229122119277187073">
+        <img src="program_meme.gif" alt="program_meme" style="width: auto; height: auto;">
+      </a>
+    </p>
+
+<a class="title">
+  <!-- Element to contain animated typing -->
+  <span id="element"></span>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>I want to </i> be,', 'Dev , IT.'],
+      typeSpeed: 50,
+    });
+  </script>
+  </a>
+
+<hr>
+<!-- <footer class="text-center"> -->
+  <div id="overflowTest">
+    <p style="text-align: center;">
+      Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
+    </p>
+    <p>dev by</p>
+    <a href="https://github.com/mattboldt/typed.js">
+      <img id="gif" src="Hyperlink.gif"  width="40px" height="40px" style="text-align: center;">
+    </a>
+  </div>
+<!-- </footer> -->
+
+</body>
+</html>

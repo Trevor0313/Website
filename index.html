@@ -1,2 +1,63 @@
-<p>Hello World</p> 
-<a href="https://github.com/Trevor0313/">Source Code</a>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to my Website</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  <!--install typed.js -->
+    </head>
+
+    <body>
+        
+        <div style="text-align: center;">
+            <a class="title"> Hello Welcome </a>
+        </div>
+
+        <script>
+            function myFunction(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+
+        <a class="change-theme">
+            <span onclick="myFunction()">&#9728;</span>
+        </a>
+
+        <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
+
+          <ul>
+                <li><a class="bordershadow active" href="index.html"> <i> &#127968; </i> Home</a></li>
+                <li><a class="bordershadow active" href="about.html"> <i> &#9773; </i> About</a></li>
+          </ul>
+          
+          <p id="C4" style="text-align: center;">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="programmer_meme.jpg" alt="programmer_meme" style="width: auto;height:auto;">
+            </a>
+          </p>
+
+          <div id="overflowTest">
+            <p style="text-align: center;">
+                My Code Doesn't Work and I Don't Know Why and Now Its Working and I Don't Know Why
+            </p>
+          </div>
+
+        <p style="text-align: left;">
+            <a class="github" href="https://github.com/trevor0313">
+                <img class="bordershadow" src="Github.ico" alt="Github" style="width: 30px; height: 30px;">
+            </a>
+        </p>
+
+        <hr> <!--分隔線 -->
+        <img id="gif" src="hololive.gif" width="40px" height="40px" style="text-align: center;">
+        
+        <footer style="text-align: center;">
+            <a class="footer" href="https://github.com/trevor0313">
+                <p>&copy; 2024 My Website.All rights reserved.</p>
+            </a>
+        </footer>
+        
+    </body>
+</html>
