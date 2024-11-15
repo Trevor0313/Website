@@ -15,12 +15,8 @@ body {
   color: black;
 }
 
-.title{
-  position: fixedl;
-  font-size: 250%;
-  color: orange;
-}
 
+/* Change Color */
 .change-theme{
   position: fixed;
   top: 0;
@@ -100,9 +96,6 @@ li a:hover {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
-
-
 
 /* dropdown content */
 .dropbtn {
