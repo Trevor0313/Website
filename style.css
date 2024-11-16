@@ -21,6 +21,8 @@ body {
   position: fixed;
   top: 0;
   right: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .github{
@@ -56,12 +58,21 @@ body {
 
 
 /* Horizontal Navigation Bar */
+
+body {
+  margin: 0; /* 移除預設外邊距 */
+  padding: 0; /* 可選：移除預設內邊距 */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li {
@@ -76,14 +87,18 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
-}
-
 /* li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #111;
+} */
+
+.active {
+  background-color: #04AA6D;
+}
+li a:hover {
+  background-color: pink;
   color: white;
-}  */
+} 
+
 
 #overflowTest {
   background: blue;
