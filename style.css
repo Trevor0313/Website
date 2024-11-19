@@ -6,13 +6,9 @@ body {
     text-align: right;
 }
 
-.about-body{
-  background-image: url(background.jpg);
-}
-
-.dark-mode {
-  background-color: white;
-  color: black;
+body.dark-mode {
+  background-color: #555555;
+  color: white;
 }
 
 
@@ -64,10 +60,10 @@ body {
   padding: 0; /* 可選：移除預設內邊距 */
 }
 
-body.dark-mode {
+/* body.dark-mode {
   background-color: black;
   color: white;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -91,10 +87,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* li a:hover:not(.active) {
-  background-color: #111;
-} */
 
 #overflowTest {
   background: blue;
@@ -132,20 +124,4 @@ li a {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
